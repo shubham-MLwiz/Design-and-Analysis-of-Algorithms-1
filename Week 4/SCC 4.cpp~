@@ -1,3 +1,17 @@
+/*
+ * Copyright (c) [2012] [Karthik Krishnamurthy]
+ *
+ * Input file:		http://spark-public.s3.amazonaws.com/algo1/programming_prob/SCC.txt
+ * Zipped Version:	http://spark-public.s3.amazonaws.com/algo1/programming_prob/SCC.zip
+ *
+ * Problem description: The file contains the edges of a directed graph. Vertices are labeled as positive integers from
+ * 			1 to 875714. Every row indicates an edge, the vertex label in first column is the tail and the
+ *			vertex label in second column is the head (recall the graph is directed, and the edges are directed
+ * 			from the first column vertex to the second column vertex).
+ *			Your task is to code up the algorithm from the video lectures for computing strongly connected
+ *			components (SCCs), and to run this algorithm on the given graph and print the sizes of 5 largest
+ *			SCCs in the graph.
+ */
 #include <iostream>
 #include <vector>
 #include <list>
