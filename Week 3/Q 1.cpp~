@@ -1,3 +1,21 @@
+/*
+ * Copyright (c) [2012] [Karthik Krishnamurthy]
+ * 
+ * Input file: http://spark-public.s3.amazonaws.com/algo1/programming_prob/kargerAdj.txt
+ *
+ * Problem description: The file contains the adjacency list representation of a simple undirected graph. There are 40
+ * 			vertices labeled 1 to 40. The first column in the file represents the vertex label, and the
+ *			particular row (other entries except the first column) tells all the vertices that the vertex
+ * 			is adjacent to. So for example, the 6th row looks liks : "6 29 32 37 27 16". This just means
+ *			that the vertex with label 6 is adjacent to (i.e., shares an edge with) the vertices with labels
+ *			29, 32, 37, 27 and 16.
+ * 			Your task is to code up and run the randomized contraction algorithm for the min cut problem
+ * 			and use it on the above graph to compute the min cut.
+ *
+ * Note : If you are using the input file pointed by the above link, make sure you sanitize the file before passing it
+ * to the program. This is because the file is not properly formatted. It has tabs and spaces intermixed. I did not
+ * account for that. I am also committing the sanitized file along with this program
+ */
 #include <vector>
 #include <utility>
 #include <iostream>
